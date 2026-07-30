@@ -33,3 +33,33 @@ const countries: {
 };
 
 console.log(countries);
+
+// type or interface
+
+// Type define
+type User = {
+  id: number;
+  name: string;
+  goodPerson: boolean;
+};
+
+interface EmployerType {
+  id: number;
+  name: string;
+  perfect: boolean;
+}
+
+const workerUser: User = {
+  id: 3,
+  name: "kamal",
+  goodPerson: false,
+};
+
+const employerUser: EmployerType = {
+  id: 13,
+  name: "kamal",
+  perfect: true,
+};
+
+console.log(workerUser);
+console.log(employerUser);

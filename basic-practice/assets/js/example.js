@@ -23,3 +23,15 @@ const countries = {
     goodPlace: true,
 };
 console.log(countries);
+const workerUser = {
+    id: 3,
+    name: "kamal",
+    goodPerson: false,
+};
+const employerUser = {
+    id: 13,
+    name: "kamal",
+    perfect: true,
+};
+console.log(workerUser);
+console.log(employerUser);
