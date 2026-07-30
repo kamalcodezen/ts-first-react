@@ -5,3 +5,12 @@ const age = 24;
 console.log(age);
 const person = "Aisha";
 console.log(person);
+// type checking using function
+function calculate(a, b) {
+    if (b === 0) {
+        throw new Error("Invalid");
+    }
+    return a + b;
+}
+const result = calculate(5, 8);
+console.log(result);
