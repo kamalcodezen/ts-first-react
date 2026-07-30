@@ -17,3 +17,19 @@ function calculate(a: number, b: number): number {
 
 const result = calculate(5, 8);
 console.log(result);
+
+//basic normal array or object
+const players: string[] = ["kamal", "neymar", "vini", "cunha"];
+console.log(players);
+
+const countries: {
+  id: number;
+  name: string;
+  goodPlace: boolean;
+} = {
+  id: 3,
+  name: "Delhi",
+  goodPlace: true,
+};
+
+console.log(countries);
