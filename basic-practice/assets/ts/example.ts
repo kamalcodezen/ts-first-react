@@ -63,3 +63,17 @@ const employerUser: EmployerType = {
 
 console.log(workerUser);
 console.log(employerUser);
+
+// Tuple (Fixed Length Array)
+type FoodPrice = [number, number];
+
+const apple: FoodPrice = [300, 500];
+console.log(apple);
+
+type FootballPlayers = [string, number];
+const playersFootball: FootballPlayers[] = [
+  ["Neymar", 10],
+  ["Ronaldo", 7],
+];
+
+console.log(playersFootball);
