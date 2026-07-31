@@ -77,3 +77,15 @@ const playersFootball: FootballPlayers[] = [
 ];
 
 console.log(playersFootball);
+
+// Tuple multiple value return
+type Division = [number, number];
+
+function divide(a: number, b: number): Division {
+  const price = a * b;
+  const divide = a % b;
+  return [price, divide];
+}
+
+const total: Division = divide(12, 23);
+console.log(total);
