@@ -1,8 +1,16 @@
 {
   "compilerOptions": {
     "target": "esnext",
+    "module": "commonjs",
     "outDir": "./assets/js",
     "rootDir": "./assets/ts",
-    "noEmitOnError": true
+    "noEmitOnError": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
   }
 }

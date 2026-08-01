@@ -35,3 +35,17 @@ const employerUser = {
 };
 console.log(workerUser);
 console.log(employerUser);
+const apple = [300, 500];
+console.log(apple);
+const playersFootball = [
+    ["Neymar", 10],
+    ["Ronaldo", 7],
+];
+console.log(playersFootball);
+function divide(a, b) {
+    const price = a * b;
+    const divide = a % b;
+    return [price, divide];
+}
+const total = divide(12, 23);
+console.log(total);
